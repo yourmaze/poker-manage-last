@@ -1,0 +1,38 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreateTournamentTemplate extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('tournament_template', function (Blueprint $table) {
+            $table->id();
+            $table->string('name');
+            $table->integer('blind_time');
+            $table->text('blinds_structure');
+            $table->integer('price');
+            $table->integer('bonus_stack')->default(0);
+            $table->integer('usual_stack')->default(0);
+            $table->integer('addon_stack')->default(0);
+            $table->integer('addon_price');
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('tournament_template');
+    }
+}

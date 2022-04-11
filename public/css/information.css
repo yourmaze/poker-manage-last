@@ -1,0 +1,87 @@
+.information-tournament{
+    background-color: #fff;
+}
+.first-screen{
+    background-color: #26272a;
+    height: 600px;
+}
+.hero__screen{
+    box-shadow: 0 0 30px rgba(0,0,0,0.4);
+    color: #fff;
+    background-image: url("/img/hero-screen.jpg");
+    background-size: cover;
+    height: 800px;
+    margin: 0 0 0 150px;
+    padding: 0 200px;
+    position: relative;
+}
+#rules p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #222;
+    line-height: 1.7;
+}
+#rules .uk-accordion-title {
+    font-size: 1.4rem;
+    color: #111;
+}
+.uk-accordion > :nth-child(n+2) {
+    margin-top: 40px;
+}
+.hero__info{
+    box-shadow: 0 0 30px rgba(0,0,0,0.4);
+    position: absolute;
+    top: auto;
+    bottom: -15%;
+    right: 20%;
+    color: #fff;
+    background-color: #7e21ff;
+    padding: 40px;
+}
+.hero__info-value{
+    font-size: 20px;
+    font-weight: 600;
+}
+.hero-text{
+    font-weight: 400;
+    line-height: 2;
+}
+.uk-color-white{
+    color: #fff;
+}
+.article-content{
+    margin: 900px 0;
+}
+.uk-navbar-nav > li.uk-active > a {
+    color: #dfdfdf;
+}
+.main-menu{
+    padding: 30px;
+}
+#blind-level{
+    margin-top: 600px;
+}
+.uk-table-hover > tr:hover, .uk-table-hover tbody tr:hover {
+    background: #eee1ff;
+}
+@media only screen and (max-width: 640px) {
+    .hero__screen {
+        height: 400px;
+        margin: 0;
+        padding: 0 20px;
+    }
+    .hero__info {
+        bottom: -85%;
+        right: 20%;
+    }
+    #blind-level {
+        margin-top: 300px;
+    }
+    .article-content {
+        margin: 100px 0;
+    }
+    .uk-navbar-nav > li > a, .uk-navbar-item, .uk-navbar-toggle {
+        padding: 0 10px;
+        font-size: 0.775rem;
+    }
+}

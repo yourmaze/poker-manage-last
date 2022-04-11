@@ -1,0 +1,101 @@
+.uk-card-default {
+    color: #222;
+}
+.dashboard-header{
+    padding: 30px;
+}
+.resume {
+    line-height: 1.2;
+    font-weight: 400;
+}
+.resume__head__name{
+    font-size: 1.9rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.resume__head__who{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+.uk-card-body {
+    padding: 70px 40px;
+}
+.resume__head{
+    padding-bottom: 40px;
+    border-bottom: 1px solid #d9d9d9;
+}
+h2{
+    color: #222;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.resume__left-cell{
+    padding: 40px 20px 40px 0;
+}
+hr{
+    border-bottom: 1px solid #d9d9d9;
+}
+.line{
+    border-left: 1px solid #d9d9d9;
+}
+.resume__right-cell{
+    margin: 40px 0 40px 0;
+}
+.resume__education__degree{
+    font-weight: 500;
+}
+.uk-text-muted {
+    color: #878d99 !important;
+}
+.resume__experience__years{
+    color: #878d99;
+    line-height: 1.5;
+    border-right: 1px solid #d9d9d9;
+    padding: 15px 20px 15px 0;
+    margin-bottom: 10px;
+}
+.resume__experience__head{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #d9d9d9;
+}
+.resume__experience__company{
+    margin-bottom: 10px;
+    padding: 15px 0 15px 20px;
+}
+.resume__company__name{
+    margin-bottom: 3px;
+}
+.resume__company__who{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.resume__experience__body{
+    padding: 40px 0 0 0;
+}
+#print-pdf{
+    margin-right: 20px;
+}
+.header-language a.active{
+    color: #000;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 980px) {
+    .line {
+        border-left: none;
+    }
+}
+@media only screen and (max-width: 580px) {
+    .resume__head{
+        text-align: center;
+    }
+    .resume__head__location {
+        margin-top: 20px;
+    }
+    .uk-card-body {
+        padding: 50px 20px;
+    }
+}

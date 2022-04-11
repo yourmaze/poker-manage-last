@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="185.185.68.8" id="97590ae7-c538-4128-a019-096c677c403a" keyPath="$USER_HOME$/Документы/b0636231-key.ppk" port="22" customName="SSH VDS SprintBox" nameFormat="CUSTOM" username="root" useOpenSSHConfig="true">
+        <option name="customName" value="SSH VDS SprintBox" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="141.8.195.22" id="47e879d6-170c-41f6-8c21-2b9e344379a6" port="22" customName="CentOS" nameFormat="CUSTOM" username="root" useOpenSSHConfig="true">
+        <option name="customName" value="CentOS" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>
